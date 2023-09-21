@@ -22,7 +22,8 @@ object DetailMovieMapper {
                 poster = it.poster,
                 country = it.country,
                 genre = it.genre,
-                writer = it.writer
+                writer = it.writer,
+                imdbRating = it.imdbRating
             )
             dataList.add(data)
         }

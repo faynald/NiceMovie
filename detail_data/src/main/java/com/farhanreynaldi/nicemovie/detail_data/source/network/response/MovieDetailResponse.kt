@@ -44,5 +44,8 @@ data class MovieDetailResponse(
 	val genre: String? = null,
 
 	@field:SerializedName("Writer")
-	val writer: String? = null
+	val writer: String? = null,
+
+	@field:SerializedName("imdbRating")
+	val imdbRating: String? = null
 )

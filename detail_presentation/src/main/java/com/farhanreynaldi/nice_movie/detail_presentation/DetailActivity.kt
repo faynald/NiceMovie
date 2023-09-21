@@ -39,7 +39,7 @@ class DetailActivity : AppCompatActivity() {
                                 tvDetailTitle.text = data?.title
                                 detailTvDate.text = data?.released
                                 detailTvDuration.text = data?.runtime
-                                detailTvRating.text = data?.rated.toString()
+                                detailTvRating.text = data?.imdbRating.toString()
                                 detailTvDescription.text = data?.plot
                                 detailTvGenre.text = data?.genre
                                 detailTvDirector.text = data?.director

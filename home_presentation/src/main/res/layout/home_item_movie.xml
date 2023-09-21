@@ -20,6 +20,8 @@
         android:id="@+id/item_tv_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:textSize="20sp"
         android:maxLines="2"
         android:ellipsize="end"
         app:layout_constraintStart_toEndOf="@id/item_img"
@@ -28,6 +30,8 @@
 
     <TextView
         android:id="@+id/item_tv_year"
+        android:layout_marginHorizontal="16dp"
+        android:textSize="20sp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"

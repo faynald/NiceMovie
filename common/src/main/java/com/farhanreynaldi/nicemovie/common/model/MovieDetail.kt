@@ -27,5 +27,7 @@ data class MovieDetail(
 
     val genre: String? = null,
 
-    val writer: String? = null
+    val writer: String? = null,
+
+    val imdbRating: String? = null
 )
